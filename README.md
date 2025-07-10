@@ -1,2 +1,4 @@
 # Chess_OOP
-Developed an object-oriented chess game in Java with custom piece movement, capture rules, and turn-based logic using a HashMap-based board. Features real-time console rendering; currently ends on king capture.
+This is a terminal-based chess game built in Java, designed using object-oriented programming principles such as inheritance, abstraction, and polymorphism. The game features all standard chess pieces with individually defined movement logic, turn-based play between white and black, and a dynamically rendered board using console output.
+Each piece’s legal moves are determined based on real chess rules, including directional movement and capturing logic. The board state is managed using a HashMap<Position, Piece> for efficient lookups. The game currently ends upon the capture of a king, simulating checkmate, with future plans to implement full check and checkmate detection.
+This project was developed to reinforce OOP design in Java and demonstrate principles such as encapsulation and polymorphism in a real-world game simulation.
